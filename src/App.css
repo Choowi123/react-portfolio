@@ -4,7 +4,7 @@
   }
   /* Header CSS*/
   .header {
-    background-image: url("/background.png");
+    background-image: url("background.png");
     background-size: cover;
     margin-top: -20px;
     margin-left: -10px;
@@ -72,7 +72,7 @@
 
   /* Body CSS*/
   .body {
-    background-image: url("/bgnew.png");
+    background-image: url("bgnew.png");
     background-size: contain;
     margin: -20px -8px 0px -8px;
     height: 600px;
@@ -103,7 +103,7 @@
     color: white;
     height: 100px;
     width: 250px;
-    background-image: url("/background.png");
+    background-image: url("background.png");
     border-radius: 10px;
     display: block;
     margin-left: auto;
@@ -164,7 +164,7 @@
     color: white;
     padding: 5px 10px 5px 20px;
     box-shadow: 5px 5px 5px 5px black;
-    background-image: url("/background.png");
+    background-image: url("background.png");
     border-radius: 10px;
     width: 270px;
     height: 235px;
@@ -178,7 +178,7 @@
     transform: rotateY(180deg);
     padding: 5px 10px 5px 20px;
     box-shadow: 5px 5px 5px 5px black;
-    background-image: url("/background.png");
+    background-image: url("background.png");
     border-radius: 10px;
     width: 270px;
     height: 235px;
@@ -223,7 +223,7 @@
     color: white; */
     height: 200px;
     width: 250px;
-    background-image: url("/background.png");
+    background-image: url("background.png");
     border-radius: 10px;
     display: block;
     margin-left: auto;
@@ -259,7 +259,7 @@
   }
   /* Header CSS*/
   .header {
-    background-image: url("/background.png");
+    background-image: url("background.png");
     background-size: cover;
     margin-top: -20px;
     margin-left: -10px;
@@ -327,7 +327,7 @@
 
   /* Body CSS*/
   .body {
-    background-image: url("/bgnew.png");
+    background-image: url("bgnew.png");
     background-size: cover;
     margin: -20px -8px 0px -8px;
     height: 650px;
@@ -362,7 +362,7 @@
     color: white;
     height: 100px;
     width: 250px;
-    background-image: url("/background.png");
+    background-image: url("background.png");
     border-radius: 10px;
     display: block;
     margin-left: auto;
@@ -423,7 +423,7 @@
     color: white;
     padding: 5px 10px 5px 20px;
     box-shadow: 5px 5px 5px 5px black;
-    background-image: url("/background.png");
+    background-image: url("background.png");
     border-radius: 10px;
     width: 350px;
     height: 230px;
@@ -437,7 +437,7 @@
     transform: rotateY(180deg);
     padding: 5px 10px 5px 20px;
     box-shadow: 5px 5px 5px 5px black;
-    background-image: url("/background.png");
+    background-image: url("background.png");
     border-radius: 10px;
     width: 350px;
     height: 230px;
@@ -495,7 +495,7 @@
     color: white; */
     height: 225px;
     width: 400px;
-    background-image: url("/background.png");
+    background-image: url("background.png");
     border-radius: 10px;
     display: block;
     margin-left: auto;
@@ -532,7 +532,7 @@
   }
   /* Header CSS*/
   .header {
-    background-image: url("/background.png");
+    background-image: url("background.png");
     background-size: cover;
     margin-top: -20px;
     margin-left: -10px;
@@ -614,7 +614,7 @@
 
   /* Body CSS*/
   .body {
-    background-image: url("/bgnew.png");
+    background-image: url("bgnew.png");
     background-size: cover;
     margin: -20px -8px 0px -8px;
     height: 550px;
@@ -666,7 +666,7 @@
     color: white;
     height: 100px;
     width: 250px;
-    background-image: url("/background.png");
+    background-image: url("background.png");
     border-radius: 10px;
     margin-left: 240px;
     margin-top: -150px;
@@ -731,7 +731,7 @@
     color: white;
     padding: 5px 10px 5px 20px;
     box-shadow: 5px 5px 5px 5px black;
-    background-image: url("/background.png");
+    background-image: url("background.png");
     border-radius: 10px;
     width: 350px;
     height: 230px;
@@ -745,7 +745,7 @@
     transform: rotateY(180deg);
     padding: 5px 10px 5px 20px;
     box-shadow: 5px 5px 5px 5px black;
-    background-image: url("/background.png");
+    background-image: url("background.png");
     border-radius: 10px;
     width: 350px;
     height: 230px;
@@ -803,7 +803,7 @@
     color: white; */
     height: 235px;
     width: 400px;
-    background-image: url("/background.png");
+    background-image: url("background.png");
     border-radius: 10px;
     display: inline-block;
     margin-left: 200px;
