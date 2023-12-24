@@ -17,7 +17,7 @@
     height: 50px;
     width: 50px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 17px;
     border-radius: 50%;
     display: inline-block;
   }
@@ -73,9 +73,9 @@
   /* Body CSS*/
   .body {
     background-image: url("bgnew.png");
-    background-size: contain;
+    background-size: cover;
     margin: -20px -8px 0px -8px;
-    height: 600px;
+    height: 680px;
   }
 
   .intro,
@@ -168,7 +168,7 @@
     border-radius: 10px;
     width: 270px;
     height: 235px;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: -50px;
   }
 
@@ -182,7 +182,7 @@
     border-radius: 10px;
     width: 270px;
     height: 235px;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: -50px;
   }
 
@@ -272,7 +272,7 @@
     height: 50px;
     width: 50px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 17px;
     border-radius: 50%;
     display: inline-block;
   }
@@ -545,7 +545,7 @@
     height: 50px;
     width: 50px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 17px;
     border-radius: 50%;
     display: inline-block;
   }

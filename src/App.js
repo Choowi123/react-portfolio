@@ -2,22 +2,36 @@ import Header from './Header.js';
 import Body from './Body.js';
 import BodyAbout from './BodyAbout.js';
 import BodyContact from './BodyContact.js';
-import './App.css'
-import { BrowserRouter as Routes, Route } from 'react-router-dom';
+import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // import { Route, Routes } from "react-router-dom"
 
 function App() {
   
   return (
     <>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Body />} />
-        <Route path="/body" element={<Body />} />
-        <Route path="/bodyabout" element={<BodyAbout />} />
-        <Route path="/bodycontact" element={<BodyContact />} />
-      </Routes>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Header />}>
+            <Route index element={<Body />} />
+            <Route path="/body" element={<Body />} />
+            <Route path="/bodyabout" element={<BodyAbout />} />
+            <Route path="/bodycontact" element={<BodyContact />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
+
+
+    // <>
+    //   <Header />
+    //   <Routes>
+    //     <Route path="/" element={<Body />} />
+    //     <Route path="/body" element={<Body />} />
+    //     <Route path="/bodyabout" element={<BodyAbout />} />
+    //     <Route path="/bodycontact" element={<BodyContact />} />
+    //   </Routes>
+    // </>
   )
 }
 

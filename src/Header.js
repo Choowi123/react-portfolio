@@ -1,8 +1,8 @@
-import Dropdown from "./Dropdown.js"
-import './App.css'
-import { Link } from "react-router-dom"
+import Dropdown from "./Dropdown.js";
+import './App.css';
+import { Outlet, Link } from "react-router-dom";
 
-function Header() {
+const Header = () => {
     return (
         <>
             <div className='header'>
@@ -18,8 +18,9 @@ function Header() {
                     </div>
                 </div>
             </div>
+            <Outlet />
         </>
     )
-}
+};
 
-export default Header
+export default Header;
